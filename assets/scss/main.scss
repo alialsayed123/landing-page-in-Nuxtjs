@@ -1,0 +1,73 @@
+body {
+  font-family: 'Dubia', sans-serif !important;
+
+  font-size: 16px;
+  background-color: #f5f5f5;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Dubia', sans-serif !important;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  color: #242221;
+  padding: 0px 40px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.Vue-Toastification__toast-body {
+  margin-left: 12px !important;
+}
+
+@media screen and (min-width: 1367px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .container {
+    max-width: 411px;
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    max-width: 320px;
+    padding: 0px 10px;
+  }
+}
